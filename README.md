@@ -387,6 +387,10 @@ A4   A12  A9   A23 A15         A3                  A18     A22
 /29  /30  /25  /28 /23         /26                 /30     /30
 
 
+### 6.0.2 VLSM Tree
+![vlsm tree](assets/tree.png)
+
+
 ## 7. KONFIGURASI CISCO PACKET TRACER
 
 ### 7.1 Konfigurasi Router
@@ -512,6 +516,8 @@ S    192.230.14.0/25 [1/0] via 192.230.15.178
 ### Lampiran A: Topologi Lengkap
 
 ![topologi cpt](assets/topologicpt.png)
+
+![topologi gns](assets/subnett.png)
 
 ### Lampiran B: Konfigurasi Lengkap Semua Router
 
