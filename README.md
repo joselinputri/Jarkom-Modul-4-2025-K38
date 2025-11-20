@@ -342,6 +342,8 @@ Setelah mendapat subnet root, kita lakukan pembagian **top-down** untuk mendapat
 ---
 
 ### 6.0.1 CIDR Tree
+
+```
                                             (192.230.0.0/16)
                                        |
                                        |
@@ -384,7 +386,7 @@ A1   A7     A5     A10   A13                  A16       A19
 A4  A12     A9     A23   A15                  A18       A22
 /29 /30    /25     /28   /23                  /30       /30
 
-
+```
 
 
 
