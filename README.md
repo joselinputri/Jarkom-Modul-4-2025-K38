@@ -394,7 +394,7 @@ A4  A12     A9     A23   A15                  A18       A22
 ![vlsm tree](assets/tree.png)
 
 
-## 7. KONFIGURASI CISCO PACKET TRACER
+## 7. KONFIGURASI CISCO PACKET TRACER DAN KONFIGURASI GNS
 
 ### 7.1 Konfigurasi Router
 
@@ -448,9 +448,12 @@ ip route 192.230.0.0 255.255.252.0 192.230.15.178
 
 ---
 
+7.5 Konfigurasi GNS
+Semua Konfigurasi GNS ada di file ```bash config``` (bisa dilihat disana lengkap)
+
 ## 8. TESTING DAN VERIFIKASI
 
-### 8.1 Ping Test
+### 8.1 Ping Test CPT
 
 ```
 Shadow > ping 192.230.12.3 (Anarion) → Success ✅
@@ -480,6 +483,14 @@ S    192.230.14.0/25 [1/0] via 192.230.15.178
 ```
 
 ---
+
+### 8.4 Testing Ping GNS
+ping Shadow ke Grond dan sebaliknya
+ping Utumno ke Beacon dan sebaliknya
+ping Elrond ke Numenor dan sebaliknya
+ping Hobbiton ke Valmar dan sebaliknya
+ping Anor ke Fornost dan sebaliknya
+ping Erain ke Morgoth dan sebaliknya
 
 ## 9. KESIMPULAN
 
@@ -512,6 +523,11 @@ S    192.230.14.0/25 [1/0] via 192.230.15.178
 - Perhitungan lebih kompleks dibanding VLSM
 - Tidak cocok untuk jaringan dengan IP terbatas
 
+### 9.5 Kelebihan VLSM
+- Sangat efisien dalam pemakaian IP address, karena setiap subnet mendapatkan ukuran yang tepat sesuai kebutuhan host.
+- Flexibel, dapat membagi subnet besar menjadi beberapa subnet kecil tanpa membuang alamat IP.
+- Mengurangi pemborosan alamat, terutama pada jaringan yang heterogen (tiap subnet berbeda jumlah host).
+
 ---
 
 ## LAMPIRAN
@@ -526,6 +542,30 @@ S    192.230.14.0/25 [1/0] via 192.230.15.178
 
 (File .pkt Cisco Packet Tracer)
 
+![topologi cpt](assets/gns.png)
+
 ### Lampiran C: Hasil Testing
 
-(Screenshot ping dan traceroute)
+#### Ping ke Shadow ke Grond dan sebaliknya
+![topologi cpt](assets/a.png)
+![topologi cpt](assets/b.png)
+
+#### ping Utumno ke Beacon dan sebaliknya
+![topologi cpt](assets/c.png)
+![topologi cpt](assets/d.png)
+
+#### ping Elrond ke Numenor dan sebaliknya
+![topologi cpt](assets/e.png)
+![topologi cpt](assets/l.png)
+
+#### ping Hobbiton ke Valmar dan sebaliknya
+![topologi cpt](assets/f.png)
+![topologi cpt](assets/g.png)
+
+#### ping Anor ke Fornost dan sebaliknya
+![topologi cpt](assets/h.png)
+![topologi cpt](assets/i.png)
+
+#### ping Erain ke Morgoth dan sebaliknya
+![topologi cpt](assets/j.png)
+![topologi cpt](assets/k.png)
